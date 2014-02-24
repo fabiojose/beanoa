@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: mcast2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\fabiojm\CONFIG~1\Temp\RSP62.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/mcast2.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"D:\study\workspace\beanoa\src-jni\visualc6-workspace\mcast2\register.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\fabiojm\CONFIG~1\Temp\RSP62.tmp" 
+Creating temporary file "C:\DOCUME~1\fabiojm\CONFIG~1\Temp\RSP63.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/mcast2.pdb" /debug /machine:I386 /out:"Debug/mcast2.exe" /pdbtype:sept 
+".\Debug\StdAfx.obj"
+".\Debug\mcast2.obj"
+".\Debug\register.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\fabiojm\CONFIG~1\Temp\RSP63.tmp"
+<h3>Output Window</h3>
+Compiling...
+register.cpp
+D:\study\workspace\beanoa\src-jni\visualc6-workspace\mcast2\register.cpp(15) : error C2079: 'imr' uses undefined struct 'ip_mreq_source'
+D:\study\workspace\beanoa\src-jni\visualc6-workspace\mcast2\register.cpp(17) : error C2228: left of '.imr_multiaddr' must have class/struct/union type
+D:\study\workspace\beanoa\src-jni\visualc6-workspace\mcast2\register.cpp(17) : error C2228: left of '.S_un' must have class/struct/union type
+D:\study\workspace\beanoa\src-jni\visualc6-workspace\mcast2\register.cpp(17) : error C2228: left of '.S_addr' must have class/struct/union type
+D:\study\workspace\beanoa\src-jni\visualc6-workspace\mcast2\register.cpp(18) : error C2228: left of '.imr_sourceaddr' must have class/struct/union type
+D:\study\workspace\beanoa\src-jni\visualc6-workspace\mcast2\register.cpp(18) : error C2228: left of '.S_un' must have class/struct/union type
+D:\study\workspace\beanoa\src-jni\visualc6-workspace\mcast2\register.cpp(18) : error C2228: left of '.S_addr' must have class/struct/union type
+D:\study\workspace\beanoa\src-jni\visualc6-workspace\mcast2\register.cpp(19) : error C2228: left of '.imr_interface' must have class/struct/union type
+D:\study\workspace\beanoa\src-jni\visualc6-workspace\mcast2\register.cpp(19) : error C2228: left of '.S_un' must have class/struct/union type
+D:\study\workspace\beanoa\src-jni\visualc6-workspace\mcast2\register.cpp(19) : error C2228: left of '.S_addr' must have class/struct/union type
+D:\study\workspace\beanoa\src-jni\visualc6-workspace\mcast2\register.cpp(20) : error C2065: 'IP_ADD_SOURCE_MEMBERSHIP' : undeclared identifier
+D:\study\workspace\beanoa\src-jni\visualc6-workspace\mcast2\register.cpp(27) : error C2079: 'imr' uses undefined struct 'ip_mreq_source'
+D:\study\workspace\beanoa\src-jni\visualc6-workspace\mcast2\register.cpp(29) : error C2228: left of '.imr_multiaddr' must have class/struct/union type
+D:\study\workspace\beanoa\src-jni\visualc6-workspace\mcast2\register.cpp(29) : error C2228: left of '.S_un' must have class/struct/union type
+D:\study\workspace\beanoa\src-jni\visualc6-workspace\mcast2\register.cpp(29) : error C2228: left of '.S_addr' must have class/struct/union type
+D:\study\workspace\beanoa\src-jni\visualc6-workspace\mcast2\register.cpp(30) : error C2228: left of '.imr_sourceaddr' must have class/struct/union type
+D:\study\workspace\beanoa\src-jni\visualc6-workspace\mcast2\register.cpp(30) : error C2228: left of '.S_un' must have class/struct/union type
+D:\study\workspace\beanoa\src-jni\visualc6-workspace\mcast2\register.cpp(30) : error C2228: left of '.S_addr' must have class/struct/union type
+D:\study\workspace\beanoa\src-jni\visualc6-workspace\mcast2\register.cpp(31) : error C2228: left of '.imr_interface' must have class/struct/union type
+D:\study\workspace\beanoa\src-jni\visualc6-workspace\mcast2\register.cpp(31) : error C2228: left of '.S_un'

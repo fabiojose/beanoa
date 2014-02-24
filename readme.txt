@@ -1,0 +1,16 @@
+- Dependencies
+	- commons-beanutils-1.8.3
+	- commons-betwixt-0.8
+	- commons-collections-3.2.1
+	- commons-digester-2.1
+	- commons-logging-1.1.1
+	- apache-tomcat-7.0.23
+	- db-derby-10.8.2.2-bin
+	- commons-sandbox-flatfile
+		- antlr-2.7.7
+		- commons-lang3-3.1
+	- commons-io-2.1
+	- hsqldb-2.2.6
+	- commons-pool-1.5.7
+	- hibernate-release-4.0.0.CR6
+	- json 2011-02-11+

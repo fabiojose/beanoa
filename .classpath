@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/antlr"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/apache-derby"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/commons-beanutils"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/commons-betwixt"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/commons-collections"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/commons-digester"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/commons-io"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/commons-logging"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/commons-pool"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/commons-sandbox-flatfile"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/hibernate4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/hsqldb"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/json"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/commons-lang3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.6.0_13"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/log4j"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/servlet-api-3"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Tue Apr 24 16:58:50 BRT 2012:
+ Inicializando o Derby versão The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instância a816c00e-0136-e5ef-5870-000000461c90
+no diretório de banco de dados D:\study\workspace\beanoa\tests\derby\beanoa  
+
+java.vendor=Sun Microsystems Inc.
+java.runtime.version=1.6.0_13-b03
+user.dir=D:\study\workspace\beanoa
+derby.system.home=null
+Carregador de classe do banco de dados iniciado - derby.database.classpath=''

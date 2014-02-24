@@ -1,0 +1,7 @@
+
+namespace beanocpp {
+
+	class BeanoaLocator {
+	
+	}
+}
